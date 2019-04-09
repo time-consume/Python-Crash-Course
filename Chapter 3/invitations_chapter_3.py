@@ -1,0 +1,10 @@
+invitations=['yingying','jun chen','lao hou']
+print("Dear "+invitations[0].title()+":"+"\n\tWould you like to join me in dinner tonight ?")
+print("Dear "+invitations[1].title()+":"+"\n\tWould you like to join me in dinner tonight ?")
+print("Dear "+invitations[2].title()+":"+"\n\tWould you like to join me in dinner tonight ?")
+absent=invitations.pop(1)
+invitations.insert(1,'neng bo')
+print("\t"+absent.title()+"\ncan't make it")
+print("Dear "+invitations[0].title()+":"+"\n\tWould you like to join me in dinner tonight ?")
+print("Dear "+invitations[1].title()+":"+"\n\tWould you like to join me in dinner tonight ?")
+print("Dear "+invitations[2].title()+":"+"\n\tWould you like to join me in dinner tonight ?")
